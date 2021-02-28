@@ -9,7 +9,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: Builder Construction 
+@Template Name: Builder Construction
 @Author: Rocky Ahmed
 @Developed By: Rocky Ahmed
 @Developer URL: http://rocky.wethemez.com
@@ -26,14 +26,14 @@ Table of Content:
 06/ breadcrumb
 07/ about
 08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
+09/ project
+10/ price
+11/ team
+12/ blog
+13/ video
+14/ features
+15/ career
+16/ contact
 17/ footer
 
 =====================================================================*/
@@ -130,6 +130,15 @@ button:focus {
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.headshot{
+  width: 85%;
+  border-radius: 10px;
+}
+
+.d-flex-1{
+  flex: 1;
+}
+
 .header_area {
   position: absolute;
   width: 100%;
@@ -139,7 +148,7 @@ button:focus {
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
     background: transparent;
-    padding: 0px;
+    padding: 20px;
     border: 0px;
     border-radius: 0px; }
     .header_area .navbar .nav .nav-item {
@@ -233,7 +242,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #000;
+    background: #FFF;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -301,12 +310,12 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
   margin-bottom: 200px; }
   .home_banner_area .box_1620 {
-    min-height: 700px;
+    min-height: 500px;
     border-radius: 12px;
     position: relative;
     bottom: -200px;
@@ -316,7 +325,7 @@ button:focus {
   .home_banner_area .banner_inner {
     position: relative;
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
     display: flex; }
     .home_banner_area .banner_inner .banner_content {
       color: #222222;
