@@ -4251,7 +4251,8 @@ input[type=submit].btn-block {
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: .25rem
+    border-radius: .25rem;
+    display: none
 }
 
 .navbar-toggler:focus,

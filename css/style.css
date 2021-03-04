@@ -133,7 +133,7 @@ button:focus {
 .headshot{
   width: 85%;
   border-radius: 10px;
-  border: 1px solid #999;
+  box-shadow: 0 0 5px 2px #777777;
 }
 
 .d-flex-1{
@@ -2779,9 +2779,9 @@ h6 {
       color: #fff;
       font-size: 16px; }
     .personal_text .personal_social li:hover a {
-      background-image: -moz-linear-gradient(0deg, #403b4a 0%, #bbbbb4 100%);
-      background-image: -webkit-linear-gradient(0deg, #403b4a 0%, #bbbbb4 100%);
-      background-image: -ms-linear-gradient(0deg, #403b4a 0%, #bbbbb4 100%);
+      background-image: -moz-linear-gradient(0deg, #403b4a 100%, #bbbbb4 100%);
+      background-image: -webkit-linear-gradient(0deg, #403b4a 100%, #bbbbb4 100%);
+      background-image: -ms-linear-gradient(0deg, #403b4a 100%, #bbbbb4 100%);
     }
 
 /* End Personal Profile Area css
